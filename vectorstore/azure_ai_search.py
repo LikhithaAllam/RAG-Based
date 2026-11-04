@@ -92,4 +92,4 @@ class Retriever:
         for result in results:
             content = result.get("content", "")
             documents.append(SimpleNamespace(page_content=content))
-        return documents
+        return documents
