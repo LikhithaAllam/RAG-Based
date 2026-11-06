@@ -79,6 +79,6 @@ jobs:
 
       - name: Verify Rollout
         run: |
-          kubectl rollout status deployment/invint
+          kubectl rollout status deployment/invint   
 
 
