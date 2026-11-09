@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: invint
-          image: invintelligence.azurecr.io/invint:latest
+          image: invntelligence.azurecr.io/invint:latest
           imagePullPolicy: Always
           envFrom:
             - secretRef:
