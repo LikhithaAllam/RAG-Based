@@ -16,8 +16,5 @@ spec:
         - name: invint
           image: invntelligence.azurecr.io/invint:latest
           imagePullPolicy: Always
-          envFrom:
-            - secretRef:
-                name: invint-secrets
           ports:
             - containerPort: 8000
